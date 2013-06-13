@@ -3,3 +3,4 @@ Raffler.Router.map ->
 
 Raffler.EntriesRoute = Ember.Route.extend
   model: -> Raffler.Entry.find()
+
